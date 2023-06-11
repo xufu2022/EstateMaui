@@ -12,7 +12,7 @@ namespace RealEstateApi.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-          optionsBuilder.UseSqlServer(@"Server=tcp:futest.database.windows.net,1433;Initial Catalog=RealEstateDb;Persist Security Info=False;User ID=fu;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+          optionsBuilder.UseSqlServer(@"Server=tcp:futest.database.windows.net,1433;Initial Catalog=RealEstateDb;Persist Security Info=False;User ID=fu;Password=!1234Qwer;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
