@@ -7,10 +7,10 @@ namespace RealEstateApp.Models
 		public string Email { get; set; } = default!;
         public string Password { get; set; } = default!;
 
-        public string? Name { get; set; } 
+        public string? Name { get; set; } = "";
         //public string Email { get; set; }
         //public string Password { get; set; }
-        public string? Phone { get; set; } 
+        public string? Phone { get; set; } = "";
     }
 }
 
